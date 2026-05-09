@@ -72,3 +72,12 @@ let employee = {
     designation:"Batman",
     salary:123
 }
+
+
+let testScores = [85, 92, 78, 95, 88, 73, 90];
+
+for(let test of testScores){
+    if(test>80){
+        console.log("The score "+test);
+    }
+}
